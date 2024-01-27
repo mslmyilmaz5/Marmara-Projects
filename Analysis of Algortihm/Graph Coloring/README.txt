@@ -1,0 +1,6 @@
+------------------------------To run the program properly--------------------------------
+- Extract the "SourceCode" file in zip to the desktop.
+- Open the terminal inside the "SourceCode" folder.
+- Run it with "java App inputName.txt" format in terminal.
+- Check for "output.txt" in inside the "SourceCode" folder.
+-----------------------------------------------------------------------------------------

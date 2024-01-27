@@ -1,0 +1,8 @@
+read_int fonksiyonu 6.registere okuduğu sayıyı 5.registere en son digitten sonra girilen işlemi yazar.
+bcd fonksiyonu double dabble algoritmasını kullanarak 5.registerdan aldığı sayıyı bcd'ye çevirir outputu 6.registere yazar (doubledabble.cnin assembly hali)
+Kodun ilk satırlarında stack ve isrler ayarlanıyor
+Sonra main.cdeki kodun assemblye çevrilmiş hali var
+isr_timer timer değerini okuyup 0. registera yazıyor eğer pb2 0 ise sevensegmentede yazıyor
+pb2_isr pb2 her değiştiğinde cpuya interrupt gidiyor ve bu isr çalışıyor. pb2 değeri 0 ise sevensegmente 0.registeri (timeri), 1 ise adress 0xa00ı (calculator outputunu) yazıyor
+
+
